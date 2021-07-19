@@ -1,0 +1,23 @@
+// Program to test instructions without stalls
+LOAD R12, R2, 2
+
+SUB R1, R1, R2
+ADD R3, R2, R2
+MUL R4, R2, R4
+INC R5
+AND R6, R2, R6
+OR R7, R2, R7
+NOT R8, R2
+XOR R9, R2, R9
+
+STORE R1, R10, 0
+STORE R3, R10, 1
+STORE R4, R10, 2
+STORE R5, R10, 3
+STORE R6, R10, 4
+STORE R7, R10, 5
+STORE R8, R10, 6
+STORE R9, R10, 7
+STORE R12, R11, 7
+
+HLT
